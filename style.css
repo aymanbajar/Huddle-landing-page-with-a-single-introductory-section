@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url('images/bg-desktop.svg');
+    background-color: #674bb1;
+}
+.container{
+    display: flex;
+    padding: 30px;
+    
+}
+.huddle{
+    font-size: 30px;
+    padding-left: 10px;
+    color: #ffffff;
+}
+.two{
+    padding-left: 10px;
+    padding-top: 15px;
+    max-width: 350px;
+    color: #ffffff;
+}
+.two p{
+    font-size: 15px;
+}
+button{
+    background-color: #ffffff;
+    margin-left: 5px;
+    margin-top: 25px;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    color: #907ed0;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
+.communication{
+    position: relative;
+    top: 100px;
+    left :250px;
+}
+@media(max-width:767px){
+    .container{
+        display: block;
+    }
+   
+    .two{
+        min-width: 350px;
+        padding-left:15px ;
+    }
+    .image {
+        max-width: 500px;
+
+    }
+    .image img{
+        width: 100%;
+        height: auto;
+    }
+    button{
+        width: 300px;
+    }
+    .communication{
+        top: 50px;
+        left :250px;
+    }
+}
