@@ -42,8 +42,11 @@ button{
     left :250px;
 }
 @media(max-width:767px){
+    
     .container{
         display: block;
+        width: 100%;
+        overflow: hidden;
     }
    
     .two{
